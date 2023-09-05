@@ -1,0 +1,270 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.txtAll {
+    color: #686868;
+    margin-bottom: 10px; 
+    text-align: left;
+}
+
+
+
+/* primeira section */
+
+.first {
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.first-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+}
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2;
+}
+
+.mainTitle {
+    font-size: 50pt;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2;
+    padding: 60px;
+}
+
+
+/* segunda section */
+
+
+.second-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+}
+
+.about {
+    flex: 2; 
+    text-align: center; 
+}
+
+.about-img {
+    flex: 2; 
+    text-align: center;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.rectangle {
+    position: absolute;
+    border: 2px solid #686868;
+    width: 36%;
+    height: 96%;
+    top: -4%;
+    right: 56%;
+    z-index: -1;
+}
+
+
+
+
+/* terceira section */
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Espaçamento superior entre os vídeos */
+}
+
+iframe {
+    max-width: calc(50% - 10px); 
+}
+
+
+
+/* quarta section */
+
+
+.webstore {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Cria um espaço uniforme entre as colunas */
+}
+
+.product-grid img {
+    max-width: calc(50% - 10px); /* Define a largura máxima para cada imagem (50% com espaço entre elas) */
+    margin-bottom: 20px; /* Espaçamento inferior entre as imagens */
+}
+
+
+/* quinta section */
+
+.contact-img {
+    flex: 2; 
+    text-align: center;
+}
+
+.img2 {
+    max-width: 100%;
+    height: 500px;
+}
+
+.social-icons {
+    /* display: flex;  */
+    align-items: center; 
+    margin-top: 10px; 
+}
+
+.social-icons i {
+    font-size: 30px; 
+    margin-right: 10px; 
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #686868;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about, .music, .contact, .webstore {
+    padding: 60px 0;
+}
+
+.about-content, .music-content, .contact-content, .store-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    border: 1px solid #030303;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.more_info {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .mainTitle {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .first-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .second-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        margin-bottom: 20px; 
+    }
+
+    .rectangle {
+        position: absolute;
+        border: 2px solid #686868;
+        width: 92%;
+        height: 53%;
+        top: -2%;
+        right: -4%;
+        z-index: -1;
+    }
+
+    .subtitles {
+        text-align: center;
+    }
+
+    .txtAll {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .webstore {
+        text-align: center;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-grid img {
+        max-width: 100%;
+    }
+
+    .social-icons i {
+        font-size: 24px;
+    }
+}
+
+
+
